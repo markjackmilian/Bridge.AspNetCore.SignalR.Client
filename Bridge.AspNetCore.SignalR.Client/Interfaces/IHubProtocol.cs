@@ -6,7 +6,7 @@ namespace Bridge.AspNetCore.SignalR.Client.Interfaces
     /// Protocol for communicating over the hub
     /// </summary>
     [External]
-    [Convention(Target = ConventionTarget.Member, Notation = Notation.LowerCamelCase)]
+    [Convention(Target = ConventionTarget.Member, Notation = Notation.CamelCase)]
     public interface IHubProtocol
     {
         #region Public Properties

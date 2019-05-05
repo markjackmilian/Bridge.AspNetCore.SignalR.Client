@@ -4,7 +4,7 @@
     /// HTTP connection options
     /// </summary>
     [External]
-    [Convention(Target = ConventionTarget.Member, Notation = Notation.LowerCamelCase)]
+    [Convention(Target = ConventionTarget.Member, Notation = Notation.CamelCase)]
     public interface IHttpConnectionOptions
     {
         #region Public Properties

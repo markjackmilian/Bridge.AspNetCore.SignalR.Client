@@ -5,7 +5,7 @@
     /// </summary>
     /// <typeparam name="T">The type that will be observed</typeparam>
     [External]
-    [Convention(Target = ConventionTarget.Member, Notation = Notation.LowerCamelCase)]
+    [Convention(Target = ConventionTarget.Member, Notation = Notation.CamelCase)]
     public interface Observable<T>
     {
         #region Public Methods

@@ -4,7 +4,7 @@
     /// Hub connection options
     /// </summary>
     [External]
-    [Convention(Target = ConventionTarget.Member, Notation = Notation.LowerCamelCase)]
+    [Convention(Target = ConventionTarget.Member, Notation = Notation.CamelCase)]
     public interface IHubConnectionOptions : IHttpConnectionOptions
     {
         #region Public Properties

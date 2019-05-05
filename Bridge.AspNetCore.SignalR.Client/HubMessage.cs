@@ -8,7 +8,7 @@ namespace Bridge.AspNetCore.SignalR.Client
     [External]
     [Namespace(false)]
     [ObjectLiteral]
-    [Convention(Target = ConventionTarget.Member, Notation = Notation.LowerCamelCase)]
+    [Convention(Target = ConventionTarget.Member, Notation = Notation.CamelCase)]
     public class HubMessage
     {
         #region Public Methods

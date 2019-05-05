@@ -4,7 +4,7 @@ using System.Collections.Generic;
 namespace Bridge.AspNetCore.SignalR.Client
 {
     [External]
-    [Convention(Target = ConventionTarget.Member, Notation = Notation.LowerCamelCase)]
+    [Convention(Target = ConventionTarget.Member, Notation = Notation.CamelCase)]
     public interface IHttpClient
     {
         #region Public Methods

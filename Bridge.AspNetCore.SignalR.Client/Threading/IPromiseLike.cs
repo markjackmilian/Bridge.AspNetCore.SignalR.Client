@@ -7,7 +7,7 @@ namespace Bridge.AspNetCore.SignalR.Client.Threading
     /// </summary>
     [External]
     [Namespace(false)]
-    [Convention(Target = ConventionTarget.Member, Notation = Notation.LowerCamelCase)]
+    [Convention(Target = ConventionTarget.Member, Notation = Notation.CamelCase)]
     public interface IPromiseLike
     {
         #region Public Methods
@@ -49,7 +49,7 @@ namespace Bridge.AspNetCore.SignalR.Client.Threading
     /// <typeparam name="T"></typeparam>
     [External]
     [Namespace(false)]
-    [Convention(Target = ConventionTarget.Member, Notation = Notation.LowerCamelCase)]
+    [Convention(Target = ConventionTarget.Member, Notation = Notation.CamelCase)]
     public interface IPromiseLike<T>
     {
         #region Public Methods

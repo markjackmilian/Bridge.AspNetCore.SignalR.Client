@@ -8,7 +8,7 @@ namespace Bridge.AspNetCore.SignalR.Client
     /// </summary>
     [External]
     [Namespace("signalR")]
-    [Convention(Target = ConventionTarget.Member, Notation = Notation.LowerCamelCase)]
+    [Convention(Target = ConventionTarget.Member, Notation = Notation.CamelCase)]
     public class JsonHubProtocol : IHubProtocol
     {
         #region IHubProtocol Implementation
