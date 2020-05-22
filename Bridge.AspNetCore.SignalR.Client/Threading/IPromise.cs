@@ -11,7 +11,7 @@ namespace Bridge.AspNetCore.SignalR.Client.Threading
     /// </remarks>
     [External]
     [Namespace(false)]
-    [Convention(Target = ConventionTarget.Member, Notation = Notation.LowerCamelCase)]
+    [Convention(Target = ConventionTarget.Member, Notation = Notation.CamelCase)]
     public interface IPromise
     {
         #region Public Methods
@@ -69,7 +69,7 @@ namespace Bridge.AspNetCore.SignalR.Client.Threading
     /// </remarks>
     [External]
     [Namespace(false)]
-    [Convention(Target = ConventionTarget.Member, Notation = Notation.LowerCamelCase)]
+    [Convention(Target = ConventionTarget.Member, Notation = Notation.CamelCase)]
     public interface IPromise<T>
     {
         #region Public Methods

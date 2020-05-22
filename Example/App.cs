@@ -30,8 +30,10 @@ namespace Example
         /// </summary>
         private static void HubConnectionExample()
         {
+            var hubConnection = new HubConnectionBuilder().WithUrl("/test").Build();
+            
             // Connect to a hub
-            var hubConnection = new HubConnection("/test");
+            //var hubConnection = new HubConnection("/test");
 
             // Setup on data received event handler
             hubConnection.On("Send", new Action<string>((data) =>
