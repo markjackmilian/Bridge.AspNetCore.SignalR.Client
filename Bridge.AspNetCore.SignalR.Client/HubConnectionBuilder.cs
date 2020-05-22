@@ -13,10 +13,14 @@ namespace Bridge.AspNetCore.SignalR.Client
             
         }
 
-        
         public HubConnectionBuilder WithUrl(string url)
         {
             this.Url = url;
+            return this;
+        }
+
+        public HubConnectionBuilder WithAutomaticReconnect()
+        {
             return this;
         }
 
